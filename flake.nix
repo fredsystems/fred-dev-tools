@@ -5,6 +5,7 @@
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     flake-utils.url = "github:numtide/flake-utils";
     rust-overlay.url = "github:oxalica/rust-overlay";
+    npm-chck.url = "github:FredSystems/npm-chck";
 
     precommit-base = {
       url = "github:FredSystems/pre-commit-checks";
@@ -18,6 +19,7 @@
       flake-utils,
       rust-overlay,
       precommit-base,
+      npm-chck,
       ...
     }:
     flake-utils.lib.eachDefaultSystem (
@@ -67,7 +69,7 @@
 
             nodePackages_latest.nodejs
             nodePackages.prettier
-            npm-check
+            npm-chck.packages.${system}.default
 
             python3
           ];
