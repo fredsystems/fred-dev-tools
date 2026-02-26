@@ -12,7 +12,7 @@
   },
   "timezone": "Etc/UTC",
   "schedule": ["* */4 * * *"],
-  "enabledManagers": ["nix", "github-actions", "cargo"],
+  "enabledManagers": ["nix", "github-actions"],
   "prConcurrentLimit": 0,
   "prHourlyLimit": 0,
   "prCreation": "immediate",
