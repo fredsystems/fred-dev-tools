@@ -67,8 +67,8 @@
 
             rust-bin.stable.latest.default
 
-            nodePackages_latest.nodejs
-            nodePackages.prettier
+            nodejs_25
+            prettier
             npm-chck.packages.${system}.default
 
             python3
