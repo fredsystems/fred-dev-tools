@@ -67,7 +67,7 @@
 
             rust-bin.stable.latest.default
 
-            nodejs_25
+            nodejs_latest
             prettier
             npm-chck.packages.${system}.default
 
