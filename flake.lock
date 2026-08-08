@@ -217,11 +217,11 @@
         "precommit-base": "precommit-base"
       },
       "locked": {
-        "lastModified": 1786168121,
-        "narHash": "sha256-tw5RF6YxUykNIa1JrEzyHFXYEpVUPDDpiGyFBe9HoVs=",
+        "lastModified": 1786179715,
+        "narHash": "sha256-iSl6MZwhOhoQ+W0Q/PKvWi38I7d8xRMt01oB/kQSLJI=",
         "owner": "FredSystems",
         "repo": "npm-chck",
-        "rev": "a090ec547763cdaf26d6c88a56748cfdbd73cd48",
+        "rev": "264d132aa6a36483a34036b0555d5691d7040182",
         "type": "github"
       },
       "original": {
