@@ -217,11 +217,11 @@
         "precommit-base": "precommit-base"
       },
       "locked": {
-        "lastModified": 1788230683,
-        "narHash": "sha256-of3SfR02agUpiHGoH/uXMrGhXn8xo8r0DsrcC+bSuwU=",
+        "lastModified": 1788585474,
+        "narHash": "sha256-kb8I/HSk7JMY1vkKR6cGLW52/3pRddLZ5ORcKZt01Zg=",
         "owner": "FredSystems",
         "repo": "npm-chck",
-        "rev": "860241a5a6de8a140f0034e22dc040d62efbac7f",
+        "rev": "eea47be9bddfaf5bc680e386b20809cb40452528",
         "type": "github"
       },
       "original": {
@@ -327,11 +327,11 @@
         "nixpkgs": "nixpkgs_5"
       },
       "locked": {
-        "lastModified": 1788505699,
-        "narHash": "sha256-PSPDCdbEBEbSDCWcqv5GkbyD2ACQ9Diz6vmEbWdy4dM=",
+        "lastModified": 1788591095,
+        "narHash": "sha256-Vh+BeLWfbTT9AecazIsQ/Tkg/RzJeX3lEduANf256WA=",
         "owner": "oxalica",
         "repo": "rust-overlay",
-        "rev": "9eccf73c5b810052f08aa77ae0548c383259f17f",
+        "rev": "c361047d3a538f547f1617bb6b410411929ac9cc",
         "type": "github"
       },
       "original": {
