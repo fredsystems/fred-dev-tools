@@ -67,7 +67,16 @@
 
             rust-bin.stable.latest.default
 
-            nodejs_latest
+            # Pinned to a major on purpose; do NOT use `nodejs_latest`.
+            # That alias floats to whatever major nixpkgs has newest,
+            # which is routinely one Hydra does not build: on both the
+            # pin below and current nixos-unstable it resolves to
+            # nodejs 26.9.0, which is absent from cache.nixos.org and
+            # fails its own test suite
+            # (parallel/test-fs-cp-async-file-modes.mjs). CI therefore
+            # spent ~2h building Node from source and then failed.
+            # nodejs_24 is the nixpkgs default major and is cached.
+            nodejs_24
             prettier
             npm-chck.packages.${system}.default
 
