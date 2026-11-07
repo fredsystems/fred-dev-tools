@@ -133,11 +133,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1793726008,
-        "narHash": "sha256-jQp1wKvbwWdLBASTXkSi/VYmDJ5AbBi1WvcMt9HWJC8=",
+        "lastModified": 1793876309,
+        "narHash": "sha256-Wojg9lIH/hDH91iDVH2/EPw8oDSpxjxhXONbU1yf4Zg=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "1d060086d60cb76a40cf37109f979d88a5bd6396",
+        "rev": "f9a75f41be3a74eab55d3a7679d34ad6cc0da977",
         "type": "github"
       },
       "original": {
@@ -217,11 +217,11 @@
         "precommit-base": "precommit-base"
       },
       "locked": {
-        "lastModified": 1794033231,
+        "lastModified": 1794045807,
         "narHash": "sha256-7QiV/+3rRwBSLqBGChf7Y+SeBxrP8AnylHGHvOI9TRE=",
         "owner": "FredSystems",
         "repo": "npm-chck",
-        "rev": "a15f27ee323f1ad79dbde4b34090f6b74a6f494e",
+        "rev": "da76f99f01d318f89d0b5bc79bf7b448e1283ef5",
         "type": "github"
       },
       "original": {
